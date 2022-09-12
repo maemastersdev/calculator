@@ -1,5 +1,3 @@
-import { greet } from "./utils/greet";
-
 function App(): JSX.Element {
   return (
     <div className="calculator-grid">
