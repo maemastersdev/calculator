@@ -1,3 +1,5 @@
+import "./styles.css";
+
 function App(): JSX.Element {
   return (
     <div className="calculator-grid">
@@ -19,6 +21,7 @@ function App(): JSX.Element {
       <button>7</button>
       <button>8</button>
       <button>9</button>
+      <button>-</button>
       <button>.</button>
       <button>0</button>
       <button className="span-two">=</button>
